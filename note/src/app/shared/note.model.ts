@@ -1,5 +1,4 @@
 export class Note{
-    title: string;
-    body: string;
+    public title: string;
+    public body: string;
 }
-

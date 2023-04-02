@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Note } from 'src/app/shared/note.model';
-import { NotesService } from 'src/app/shared/notes.service';
+import  { NotesService } from 'src/app/shared/note.service';
 
 @Component({
   selector: 'app-list',
@@ -16,6 +16,5 @@ export class ListComponent implements OnInit {
   ngOnInit() {
     this.notes = this.noteService.getAll();
   }
-
 
 }

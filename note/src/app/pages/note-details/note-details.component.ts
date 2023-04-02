@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm} from '@angular/forms';
+import { Note } from 'src/app/shared/note.model'
 import { Router } from '@angular/router';
-import { Note } from 'src/app/shared/note.model';
-import { NotesService } from 'src/app/shared/notes.service';
+import { NotesService } from 'src/app/shared/note.service';
 
 @Component({
   selector: 'app-note-details',
@@ -11,7 +11,7 @@ import { NotesService } from 'src/app/shared/notes.service';
 })
 export class NoteDetailsComponent implements OnInit{
 
-  note!: Note;
+  note: Note;
 
   constructor(private notesServices: NotesService, private router: Router){}
 
