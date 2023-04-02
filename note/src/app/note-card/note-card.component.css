@@ -1,0 +1,36 @@
+.note-card-container{
+    background-color:white ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    position: relative;
+
+ 
+  
+}
+
+.note-card-title{
+    font-size: 22px;
+    font-weight: bold;
+    color: purple;
+}
+
+.note-card-content{
+    padding: 25px;
+}
+
+.x-button{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 5px;
+    height: 34px;
+    width: 34px;
+
+    background-color: lightcoral;
+    background-image: url(../../assets/delete_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
